@@ -1,0 +1,34 @@
+header,nav,ul{
+    width: 100%;
+    overflow-x: auto;
+    background-color: var(--color);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#logo{ /*hover effects*/
+    flex-grow: 0.7;
+    padding-left: 72px;
+    font: 5em P22,'sans-serif';
+    transition: 400ms;
+}
+.nav{
+    display: flex;
+    margin: auto;
+    font: 1.3em Mark,'sans-serif';
+    transition: 400ms;
+}
+.nav:hover{ /*hover effects*/
+    font-size: 1.6em;
+}
+@media screen and (max-width: 768px){
+    #logo{
+        flex-grow: 0;
+        padding: 0;
+    }
+    .nav{
+        display: none;
+    }
+}

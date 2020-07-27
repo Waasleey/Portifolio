@@ -1,0 +1,27 @@
+@font-face{
+    font-family: P22;
+    src: url('/fonts/P22FLWExhibition.ttf');
+}
+@font-face{
+    font-family: Mark;
+    src: url('/fonts/Mark-Regular.ttf');
+}
+@font-face{
+    font-family: Din;
+    src: url('/fonts/DINPro.otf');
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color: #6D18EC;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+li{
+    list-style-type: none;
+}
